@@ -1,0 +1,353 @@
+@-moz-document domain("mihaaru.com") {
+@font-face {
+  font-family: 'mv_a_waheed';
+  src: url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont);
+  src: url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont.eot?#iefix) format('embedded-opentype'),url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont.woff2) format('woff2'),url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont.woff) format('woff'),url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fourZeroFour,
+.profile-island .additional-info h1,
+.yr-section #comments .comment .title {
+ font-family: mv_a_waheed;
+ font-size: 30px
+}
+.guideline h1 {
+ font-family: mv_a_waheed;
+ font-size: 22px
+}
+.article-details .comments-holder .comment-row p,
+.cat_news_holder .cat_main_news_holder p.summary,
+.gallery-container .gallery-photo-row .photo-caption,
+.gallery-container .gallery-summary p,
+.guideline p,
+.home-main-news .summary,
+.main_news_enhanced_size_8 p.summary,
+.main_news_size_8 p.summary,
+.roadha-menu .sky-container p {
+ font-family: Tharujamaanu;
+ font-size: 18px
+}
+.alert-stripe .alerts .alert-row .breaking-notice,
+.article-details article .live-posts .live-post .post .post-author-location,
+.article-details article figure.question div,
+.cat_news_holder .cat_latest_news_holder a.title,
+.main_news_size_4 a.title,
+.navbar-inverse.secondary ul.navbar-nav.nav li.section-title a,
+.profile-island .additional-info .key,
+.yr-section #comments .comment .member {
+ font-family: mv_a_waheed;
+ font-size: 20px
+}
+.alert-stripe .alerts .alert-row .yellow-stripe,
+.article-details #commentAccount,
+.article-details .by-line address,
+.article-details .by-line address a.author,
+.article-details .comment-form input[type=text],
+.article-details .comment-form textarea,
+.breaking-block p,
+.fullscreen-overlay .fullscreen-image-slider .fullscreen-image-row .image .caption,
+.navbar-inverse .nav li.search-mobile div.search-form-holder form input,
+.navbar-inverse ul.nav.navbar-left li.search .search-form-holder form input[type=text] {
+ font-family: Tharujamaanu;
+ font-size: 16px
+}
+.coverage-label {
+ font-family: sans-serif;
+ font-size: 12px;
+ font-weight: 600
+}
+.breaking-block .coverage-label,
+.home-main-news a.title {
+ font-family: mv_a_waheed;
+ font-size: 26px
+}
+.breaking-block a.title {
+ font-size: 38px;
+ font-family: mv_a_waheed
+}
+.article-details .comments-holder .comment-header .tabbed-list li a,
+.article-details .comments-holder .comment-header .title,
+.article-details .comments-holder .comment-row .user .commenter-details span.commenter,
+.article-details .feelings-container .feeling .option span.title,
+.article-details .related-articles ul.article-list li .title,
+.article-details .suggested-article .title,
+.article-details article figure.gallery .gallery-embed-header .count,
+.article-details article figure.gallery .gallery-embed-header .title,
+.breaking-block .row.additional ul.related-articles li a,
+.cat_news_holder .section-nav .title,
+.grid-view-listing .title a,
+.multimedia-block .multimedia-thumb .meta-details a.title,
+.multimedia-block .multimedia-thumb .meta-details span.title,
+.navbar-inverse .nav li a,
+.navbar-inverse .navbar-header .navbar-brand,
+.profile-island .galleries .multimedia-thumb .title,
+.profile-island .galleries h1,
+.tiled-small a.title,
+ul.nav-tabs.tabbed-articles li a {
+ font-family: mv_a_waheed;
+ font-size: 18px
+}
+.navbar-inverse .navbar-header span.en a,
+.navbar-inverse ul.nav.navbar-left li.en a {
+ font-size: 15px;
+ font-family: sans-serif;
+ font-weight: 700
+}
+.article-details .comment-form .send-opts button[type=submit],
+.article-details .login-options .cmmnt-btn,
+.article-details article .live-posts .live-post .post-meta span.post-date,
+.cat_news_holder .section-nav ul.sub-sections li a,
+.load-more,
+.main_news_enhanced_size_8 ul.related-articles li a,
+.main_news_size_8 ul.related-articles li a,
+.navbar-inverse ul.nav.navbar-left ul.dropdown-menu li {
+ font-family: mv_a_waheed;
+ font-size: 16px
+}
+.featured-tag,
+.main_news_size_2 a.title {
+ font-family: mv_a_waheed;
+ font-size: 17px
+}
+.main_news_enhanced_size_8 .coverage-label,
+.main_news_size_4 .coverage-label {
+ font-family: sans-serif;
+ font-size: 12px;
+ font-weight: 700
+}
+.main_news_enhanced_size_8 .coverage-label .last-update,
+.main_news_size_4 .coverage-label .last-update,
+.main_news_size_8 .coverage-label .last-update {
+ font-weight: 400;
+ font-size: 10px
+}
+.main_news_size_4 .coverage-label.advertorial {
+ font-family: mv_a_waheed;
+ font-weight: 400;
+ font-size: 16px
+}
+.article-details .related-articles ul.article-list li .comments,
+.article-details .related-articles ul.article-list li .time,
+.home-main-news span.time {
+ font-family: sans-serif;
+ font-size: 11px
+}
+.main_school_guide_size_4 .title {
+ font-size: 18px;
+ font-family: mv_a_waheed
+}
+.main_news_size_school_guide .title {
+ font-size: 36px;
+ font-family: mv_a_waheed
+}
+.awareness h1,
+.main_news_enhanced_size_8 a.title {
+ font-family: mv_a_waheed;
+ font-size: 40px
+}
+.cat_news_holder .cat_main_news_holder .image a.title,
+.main_news_enhanced_size_8 .image a.title,
+.main_news_size_8 .image a.title,
+.main_news_size_8 a.title {
+ font-family: mv_a_waheed;
+ font-size: 38px
+}
+.main_news_size_8 .coverage-label {
+ font-family: sans-serif;
+ font-weight: 700;
+ font-size: 12px
+}
+.logo_info .logo_name {
+ font-family: serif;
+ font-size: 30px
+}
+.logo_info .time {
+ font-family: sans-serif;
+ font-size: 13px
+}
+.article-details #commentAccount .profile div .dhivehi-name,
+ul.nav-tabs.tabbed-articles li.active a {
+ font-family: mv_a_waheed
+}
+.cat_news_holder .cat_latest_news_holder p.summary,
+ul.tabbed-article-listing li a {
+ font-family: Tharujamaanu;
+ font-size: 15px
+}
+ul.tabbed-article-listing li .trending-rank {
+ font-size: 24px;
+ font-family: serif
+}
+h2 {
+ font-weight: 400;
+ font-family: mv_a_waheed;
+ font-size: 20px
+}
+h3 {
+ font-family: mv_a_waheed;
+ font-weight: 400;
+ font-size: 24px
+}
+.video-item a.title {
+ font-family: mv_a_waheed;
+ font-size: 15px
+}
+.gallery-container .gallery-summary h1 {
+ font-family: mv_a_waheed;
+ font-size: 46px
+}
+.article-details .comment-form .alert ul li,
+.article-details .comments-holder .comment-row .alert,
+.article-details .multimedia-caption-slider li,
+.article-details .multimedia-holder .multimedia-slider .slide .video p,
+.gallery-container .gallery-summary .publish-time,
+.yr-section #comments .comment .datetime {
+ font-family: Tharujamaanu;
+ font-size: 14px
+}
+footer .footer-dark-block .ft-column .title {
+ font-family: sans-serif;
+ font-size: 18px
+}
+footer .footer-dark-block .ft-column p,
+footer .footer-text {
+ font-family: sans-serif;
+ font-size: 12px
+}
+.connect-ad .post .client span,
+footer .footer-social-links a,
+footer .footer-social-links span,
+footer p {
+ font-size: 12px;
+ font-family: sans-serif
+}
+.article-details .sharing li span.share-count .bubble-holder .bubble,
+.article-details .sharing.vertical-list li span.share-count .bubble {
+ font-weight: 700;
+ font-size: 12px
+}
+.article-details .multimedia-holder .multimedia-slider .slide a .grad p {
+ font-size: 14px;
+ font-family: Tharujamaanu
+}
+.article-details h1 {
+ font-family: mv_a_waheed;
+ font-size: 46px;
+ font-weight: 400
+}
+.article-details #commentHolder .alert,
+.article-details .by-line .date-time,
+.article-details .comment-form .loadmore,
+.article-details .comment-form .send-opts a,
+.special-author-row .author-name {
+ font-family: Tharujamaanu
+}
+.article-details article p {
+ font-family: Tharujamaanu,sans-serif;
+ font-size: 18px
+}
+.article-details article p.article-summary {
+ font-size: 22px;
+ font-family: mv_a_waheed
+}
+.article-details article figure figcaption {
+ font-family: Tharujamaanu;
+ font-size: 13px
+}
+.article-details article figure.quote {
+ font-family: mv_a_waheed;
+ font-size: 28px
+}
+.article-details #commentAccount .connect-with p,
+.article-details article figure.external-link .link-meta,
+.isthiraaku-form,
+.outlet-list li {
+ font-family: sans-serif
+}
+.article-details a.article-tags,
+.yr-section .tags a.article-tags {
+ font-size: 16px;
+ font-family: mv_a_waheed
+}
+.article-details .login-options .or-seperator {
+ font-size: 13px;
+ font-family: Tharujamaanu
+}
+.article-details .comment-form label {
+ font-family: mv_a_waheed;
+ font-size: 20px;
+ font-weight: 400
+}
+.article-details .comments-holder .comment-row .user .commenter-details span.commenter-english {
+ font-family: Helvetica Neue,Helvetica,sans-serif
+}
+.article-details .comments-holder .comment-row .user .commenter-details span.time {
+ font-family: Tharujamaanu;
+ font-size: 12px
+}
+.article-details .comments-holder .comment-row .comment-opts .action-btn {
+ font-size: 12px;
+ font-family: sans-serif;
+ font-weight: 700
+}
+.profile-island .additional-info .value {
+ font-size: 14px;
+ font-family: sans-serif
+}
+.multimedia-block .home-page-gallery .hm-g-slider .slick-slide .caption,
+.multimedia-block .home-page-gallery p {
+ font-size: 16px;
+ font-family: Tharujamaanu
+}
+.multimedia-block .home-page-gallery .title {
+ font-family: mv_a_waheed;
+ font-size: 32px
+}
+.fullscreen-overlay .screener-header .counter-container span.counter {
+ font-size: 16px;
+ font-family: sans-serif
+}
+.roadha .section-title ul li.text,
+.section-enhanced-header {
+ font-family: mv_a_waheed;
+ font-size: 25px
+}
+.special-author-row p {
+ font-size: 18px;
+ font-family: Tharujamaanu
+}
+.roadha-menu ul li,
+.yr-section .article-feelings .feeling p {
+ font-family: mv_a_waheed;
+ font-size: 24px
+}
+.awareness p,
+.yr-section #comments .comment .text {
+ font-family: Tharujamaanu;
+ font-size: 20px
+}
+.awareness h3 {
+ font-family: Tharujamaanu;
+ font-size: 36px
+}
+.isthiraaku-form .form-segment label {
+ font-family: sans-serif;
+ font-weight: 400
+}
+.isthiraaku-form .form-segment h4 {
+ font-family: sans-serif;
+ font-size: 18px;
+ font-weight: 700
+}
+.roadha .slots-slick .slick-item .overlay span {
+ font-size: 40px;
+ font-family: mv_a_waheed
+}
+.dho-features .articles .item-container .title {
+ font-family: 'MV Typewriter', Tharujamaanu;
+ font-size: 20px;
+ font-weight: 400
+}
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "MV_Waheed";
+    src: local("MV A Waheed") format('truetype');
+}
+
+@font-face {
+    font-family: "MV_Faseyha";
+    src: local("MV Typewriter");
+}
+
+
+
+/** Ad Removal; **/
+.v-advert {
+    visibility: hidden;
+    display: none;
+}
+
+/*
+
+.article .article-body .article-body-content {
+
+    font-family: "MV Typewriter";
+    line-height: 1.65em;
+    text-align: right;
+    direction: rtl;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal
+}
+
+.article .heading-wrapper h1.heading,
+.hero-headlines-today ul.headlines a li,
+.section-title-wrapper .section-heading,
+h3.hero-medium-title {
+    font-family: "MV A Waheed";
+}
+
+.article .heading-wrapper h1.heading {
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 1.8rem;
+}
+
+*/

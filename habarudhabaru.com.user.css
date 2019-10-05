@@ -1,0 +1,79 @@
+@-moz-document domain("habarudhabaru.com") {
+@font-face {
+  font-family: tharujamaanu;
+  src: url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Bold.eot);
+  src: url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Bold.eot?#iefix) format('embedded-opentype'), url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Bold.woff2) format('woff2'), url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Bold.woff) format('woff'), url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal
+}
+@font-face {
+  font-family: tharujamaanu;
+  src: url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Light.eot);
+  src: url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Light.eot?#iefix) format('embedded-opentype'), url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Light.woff2) format('woff2'), url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Light.woff) format('woff'), url(https://rawgit.com/maaldheefee/thaana-fonts/master/Tharujamaanu-Light.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'mv_a_waheed';
+  src: url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont);
+  src: url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont.eot?#iefix) format('embedded-opentype'),url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont.woff2) format('woff2'),url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont.woff) format('woff'),url(https://rawgit.com/maaldheefee/thaana-fonts/master/mvawaheed-webfont.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Invert Colors for Dark Theme */
+    
+html {background: #333}
+
+html {
+-webkit-filter: grayscale(1) invert(1) brightness(150%) contrast(80%);
+filter: grayscale(1) invert(1) brightness(150%) contrast(80%);
+min-height: 100% !important;
+}
+
+img {
+-webkit-filter: invert(1);
+filter: invert(1);
+}
+  
+/* Hide Facebook Likebox in the sidebar */
+#facebook-likebox-7 {
+visibility: hidden;
+display:  none;
+}
+
+    
+/* Change the fonts */
+h1, h2, h3 {
+	direction: rtl;
+	font-family: mv_a_waheed !important;
+}
+
+#main #content .post h1, #main #content .post h2.entry-title {
+	font-size: 50px;
+	line-height: 28px;
+	font: 32px mv_a_waheed !important;
+	padding-bottom: 5px;
+}
+
+/* Search Widget */
+
+#footer span {
+	color: #999;
+	font-family: Tharujamaanu, sans-serif;
+}
+
+#sidebar form.searchform button {
+	font-family: Tharujamaanu;
+}
+
+.thaanaKeyboardInput {
+	font-family: Tharujamaanu, mv_a_waheed;
+}
+
+body {
+	font: 20px Tharujamaanu, sans-serif;
+}
+}
