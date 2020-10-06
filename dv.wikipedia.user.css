@@ -1,6 +1,18 @@
+/* ==UserStyle==
+@name         BetterThaana Dhivehi Wikipedia
+@namespace    hassaanmv.com
+@version      2.0.1
+@homepageURL  https://github.com/maaldheefee/userstyles-mv
+@updateURL    https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/dv.wikipedia.user.css
+@license      CC
+@author       maaldheefee
+@preprocessor stylus
+@var select fontName "Body Font" ["Tharujamaanu", "MV Typewriter", "Faruma"]
+==/UserStyle== */
+
 @-moz-document domain("dv.wikipedia.org") {
 @font-face {
-  font-family: tharujamaanu;
+  font-family: Tharujamaanu;
   src: url(https://fonts.hassaanmv.com/font/merged-light.woff2) format("woff2"),
        url(https://fonts.hassaanmv.com/font/merged-light.woff) format("woff");
   font-weight: 400;
@@ -9,7 +21,7 @@
   font-display: swap;
 }
 @font-face {
-  font-family: tharujamaanu;
+  font-family: Tharujamaanu;
   src: url(https://fonts.hassaanmv.com/font/merged-bold.woff2) format("woff2"),
        url(https://fonts.hassaanmv.com/font/merged-bold.woff) format("woff");
   font-weight: 700;
@@ -17,13 +29,16 @@
   font-stretch: normal;
   font-display: swap;
 }
+
+
 #bodyContent, .mw-body-content, #content p, #content dd, #content ol, div#content ul, td.diff-context {
-  font-size: 14pt;
+  font-size: 15pt;
   line-height: 1.8em !important;
 }
 .mw-body h1, .mw-body h2 {
   font-weight: 700;
 }
 div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, ins, em, img, small, strike, strong, sub, sup, tt, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, button, select, audio, video {
-  font-family: tharujamaanu, sans-serif !important;
+  font-family: fontName, sans-serif !important;
+}
 }
