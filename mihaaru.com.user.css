@@ -13,7 +13,7 @@
 @-moz-document domain("mihaaru.com") {
   @font-face {
     font-family: Tharujamaanu;
-    src: url(https://fonts.hassaanmv.com/fonts/merged-light.woff2) format("woff2"), url(https://fonts.hassaanmv.com/fonts/merged-light.woff) format("woff");
+    src: url("https://fonts.hassaanmv.com/fonts/merged-light.woff2") format("woff2"), url("https://fonts.hassaanmv.com/fonts/merged-light.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
@@ -21,7 +21,7 @@
   }
   @font-face {
     font-family: Tharujamaanu;
-    src: url(https://fonts.hassaanmv.com/fonts/merged-bold.woff2) format("woff2"), url(https://fonts.hassaanmv.com/fonts/merged-bold.woff) format("woff");
+    src: url("https://fonts.hassaanmv.com/fonts/merged-bold.woff2") format("woff2"), url("https://fonts.hassaanmv.com/fonts/merged-bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
