@@ -1,38 +1,58 @@
 /* ==UserStyle==
 @name         BetterThaana Mihaaru
 @namespace    hassaanmv.com
-@version      1.0.1
+@version      1.1.1
 @homepageURL  https://github.com/maaldheefee/userstyles-mv
 @updateURL    https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/mihaaru.com.user.css
 @license      CC
 @author       maaldheefee
 @preprocessor stylus
 @var select fontName "Body Font" ["Tharujamaanu", "MV Typewriter", "Faruma"]
+@var range fontMult "Font Size Multiplier" [1, 0.9, 1.2, 0.05]
 ==/UserStyle== */
 
 @-moz-document domain("mihaaru.com") {
-  @font-face {
-    font-family: Tharujamaanu;
+  @font-face { font-family: Tharujamaanu;
     src: url("https://fonts.hassaanmv.com/fonts/merged-light.woff2") format("woff2"), url("https://fonts.hassaanmv.com/fonts/merged-light.woff") format("woff");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     font-display: swap;
   }
-  @font-face {
-    font-family: Tharujamaanu;
+
+  @font-face { font-family: Tharujamaanu;
     src: url("https://fonts.hassaanmv.com/fonts/merged-bold.woff2") format("woff2"), url("https://fonts.hassaanmv.com/fonts/merged-bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
     font-display: swap;
   }
-
-  .text-waheed {
-    font-family: "MV A Waheed";
-  }
-
-  .text-faseyha {
-    font-family: fontName;
-  }
+  
+  .text-waheed  { font-family: "MV A Waheed";  }
+  .text-faseyha { font-family: fontName;       }
+  .text-xs   { font-size: fontMult * 0.75rem   }
+  .text-sm   { font-size: fontMult * 0.875rem  }
+  .text-base { font-size: fontMult * 1rem      }
+  .text-lg   { font-size: fontMult * 1.125rem  }
+  .text-xl   { font-size: fontMult * 1.25rem   }
+  .text-2xl  { font-size: fontMult * 1.5rem    }
+  .text-3xl  { font-size: fontMult * 1.875rem  }
+  .text-4xl  { font-size: fontMult * 2.25rem   }
+  .text-5xl  { font-size: fontMult * 3rem      }
+  .text-50px { font-size: fontMult * 3.125rem  }
+  .text-40px { font-size: fontMult * 2.5rem    }
+  .text-35px { font-size: fontMult * 2.1875rem }
+  .text-32px { font-size: fontMult * 2rem      }
+  .text-30px { font-size: fontMult * 1.875rem  }
+  .text-28px { font-size: fontMult * 1.75rem   }
+  .text-27px { font-size: fontMult * 1.6875rem }
+  .text-22px { font-size: fontMult * 1.375rem  }
+  .text-21px { font-size: fontMult * 1.3125rem }
+  .text-18px { font-size: fontMult * 1.125rem  }
+  .text-19px { font-size: fontMult * 1.188rem  }
+  .text-17px { font-size: fontMult * 1.0625rem }
+  .text-14px { font-size: fontMult * 0.875rem  }
+  .text-13px { font-size: fontMult * 0.8125rem }
+  .text-12px { font-size: fontMult * 0.75rem   }
+  .text-10px { font-size: fontMult * 0.625rem  }
 }
