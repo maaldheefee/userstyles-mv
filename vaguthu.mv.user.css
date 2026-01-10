@@ -1,45 +1,213 @@
-@font-face {
-    font-family: "MV_Waheed";
-    src: local("MV A Waheed") format('truetype');
+/* ==UserStyle==
+@name         BetterThaana Vaguthu
+@namespace    hassaanmv.com
+@version      2.0.0
+@homepageURL  https://github.com/maaldheefee/userstyles-mv
+@updateURL    https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/vaguthu.mv.user.css
+@license      CC
+@author       maaldheefee
+@preprocessor stylus
+@var select fontName "Body Font" ["Tharujamaanu", "MV Typewriter", "Faruma"]
+==/UserStyle== */
+
+@-moz-document domain("vaguthu.mv") {
+
+    /* Tharujamaanu font-faces with size-adjust to match MV Faseyha */
+    @font-face {
+        font-family: Tharujamaanu;
+        src: url("https://fonts.hassaanmv.com/fonts/merged-400.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: swap;
+        size-adjust: 110%;
+    }
+
+    @font-face {
+        font-family: Tharujamaanu;
+        src: url("https://fonts.hassaanmv.com/fonts/merged-700.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: swap;
+        size-adjust: 110%;
+    }
+
+    /* MV Typewriter font-faces */
+    @font-face {
+        font-family: 'MV Typewriter';
+        src: local('MV Typewriter'),
+            url("https://fonts.hassaanmv.com/fonts/mvtyper-700.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* Faruma font-faces */
+    @font-face {
+        font-family: 'Faruma';
+        src: url("https://fonts.hassaanmv.com/fonts/Faruma-v3-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Faruma';
+        src: url("https://fonts.hassaanmv.com/fonts/Faruma-v3-SemiBold.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* MV A Waheed for headlines */
+    @font-face {
+        font-family: 'MV A Waheed';
+        src: local('MV A Waheed'),
+            url("https://fonts.hassaanmv.com/fonts/MVAWaheed-Bold.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* ===== MV_Faseyha Overrides (body text) ===== */
+
+    /* Story author */
+    a.story-author {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Summary timestamps */
+    ul.summary li span {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Section heading button */
+    .button-wrapper a.section-heading-button {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Comment author/meta */
+    .comment-author cite span,
+    .comment-meta cite span {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Comment text */
+    .comment--text p {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Comment form textarea */
+    .comment-form textarea {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Hero excerpts */
+    .hero-excerpt,
+    .hero-world-excerpt {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Report excerpts */
+    .report-main-wrapper .report-main-post-wrapper .report-main-excerpt {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Article body content */
+    .article .article-body .article-body-content {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Featured image figcaption */
+    .featured-image figure figcaption {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Liveblog entry content */
+    .liveblog-entry-content {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* ===== MV_Waheed Overrides (headlines) ===== */
+
+    /* All heading elements */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .dv h1,
+    .dv h2,
+    .dv h3,
+    .dv h4,
+    .dv h5,
+    .dv h6 {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Title class */
+    .title {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Hero titles */
+    h2.hero-title,
+    h3.hero-medium-title,
+    h4.hero-listing-title,
+    h4.hero-listing-medium-title {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Report titles */
+    .report-heading,
+    .report-main-title {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Section headings */
+    .section-heading {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Breaking news */
+    .breaking-label,
+    .breaking-title h5 a {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Headlines list */
+    .headline,
+    li.headline {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Images title */
+    .images-title {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Today widget */
+    .today-body span {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Story timestamp */
+    .story-timestamp {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Comment form button and inputs */
+    .comment-form .button,
+    .comment-form [type=text] {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* ===== Ads Removal ===== */
+    .ads-wrapper,
+    .ads-body,
+    .v-advert {
+        display: none !important;
+    }
 }
-
-@font-face {
-    font-family: "MV_Faseyha";
-    src: local("MV Typewriter");
-}
-
-
-
-/** Ad Removal; **/
-.v-advert {
-    visibility: hidden;
-    display: none;
-}
-
-/*
-
-.article .article-body .article-body-content {
-
-    font-family: "MV Typewriter";
-    line-height: 1.65em;
-    text-align: right;
-    direction: rtl;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: normal
-}
-
-.article .heading-wrapper h1.heading,
-.hero-headlines-today ul.headlines a li,
-.section-title-wrapper .section-heading,
-h3.hero-medium-title {
-    font-family: "MV A Waheed";
-}
-
-.article .heading-wrapper h1.heading {
-    font-weight: 400;
-    line-height: 1.6em;
-    font-size: 1.8rem;
-}
-
-*/
