@@ -1,0 +1,90 @@
+/* ==UserStyle==
+@name         BetterThaana Adhadhu
+@namespace    hassaanmv.com
+@version      2.0.0
+@homepageURL  https://github.com/maaldheefee/userstyles-mv
+@updateURL    https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/adhadhu.com.user.css
+@license      CC
+@author       maaldheefee
+@preprocessor stylus
+@var select fontName "Body Font" ["Tharujamaanu", "MV Typewriter", "Faruma"]
+==/UserStyle== */
+
+@-moz-document domain("adhadhu.com") {
+
+    /* Tharujamaanu font-faces with size-adjust */
+    @font-face {
+        font-family: Tharujamaanu;
+        src: url("https://fonts.hassaanmv.com/fonts/merged-400.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: swap;
+        size-adjust: 110%;
+    }
+
+    @font-face {
+        font-family: Tharujamaanu;
+        src: url("https://fonts.hassaanmv.com/fonts/merged-700.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        font-display: swap;
+        size-adjust: 110%;
+    }
+
+    /* MV Typewriter font-faces */
+    @font-face {
+        font-family: 'MV Typewriter';
+        src: local('MV Typewriter'),
+            url("https://fonts.hassaanmv.com/fonts/mvtyper-700.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* Faruma font-faces */
+    @font-face {
+        font-family: 'Faruma';
+        src: url("https://fonts.hassaanmv.com/fonts/Faruma-v3-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Faruma';
+        src: url("https://fonts.hassaanmv.com/fonts/Faruma-v3-SemiBold.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* MV A Waheed for headlines */
+    @font-face {
+        font-family: 'MV A Waheed';
+        src: local('MV A Waheed'),
+            url("https://fonts.hassaanmv.com/fonts/MVAWaheed-Bold.woff2") format("woff2");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    /* ===== Font Overrides ===== */
+
+    /* Body text (MV Faseyha → user-selected font) */
+    .font-faseyha {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Headlines (MV Waheed → MV A Waheed) */
+    .font-waheed {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+        line-height: 1.7;
+    }
+
+    /* Article body */
+    .client .body p {
+        line-height: 1.8;
+    }
+}
