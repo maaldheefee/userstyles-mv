@@ -23,6 +23,7 @@ Custom userstyles for Maldivian websites with improved Dhivehi font rendering.
 | Site | Install |
 |------|---------|
 | Mihaaru | [📦 Install](https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/mihaaru.com.user.css) |
+| Sun | [📦 Install](https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/sun.mv.user.css) |
 | Vaguthu | [📦 Install](https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/vaguthu.mv.user.css) |
 | Adhadhu | [📦 Install](https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/adhadhu.com.user.css) |
 | Dhivehi Wikipedia | [📦 Install](https://raw.githubusercontent.com/maaldheefee/userstyles-mv/master/dv.wikipedia.user.css) |
