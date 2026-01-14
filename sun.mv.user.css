@@ -73,10 +73,52 @@
         font-display: swap;
     }
 
+    /* ===== Global Font Class Overrides ===== */
+
+    /* Body text (mv-faseyha → user-selected font) */
+    .thaana-faseyha {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Headlines (mv-waheed → MV A Waheed) */
+    .thaana-heading,
+    .thaana-waheed {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Typewriter style */
+    .thaana-typewriter {
+        font-family: 'MV Typewriter', fontName, sans-serif !important;
+    }
+
+    /* Article title */
+    .component-article-title h1 {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    /* Featured image caption */
+    .component-article-featured figure figcaption {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Comment listing */
+    .component-comment-listing .comment-list .avatar .name {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
+    .component-comment-listing .comment-list .content p {
+        font-family: fontName, sans-serif !important;
+    }
+
+    /* Author byline */
+    .component-article-byline .author .name {
+        font-family: 'MV A Waheed', fontName, sans-serif !important;
+    }
+
     /* ===== Article Content ===== */
 
     .component-article-content {
-        font-family: fontName, sans-serif;
+        font-family: fontName, sans-serif !important;
 
         h1,
         h2,
@@ -93,7 +135,7 @@
         p {
             font-size: fontMult * 18px;
             color: #444;
-            font-family: fontName, sans-serif;
+            font-family: fontName, sans-serif !important;
             margin-bottom: 30px;
             line-height: 1.8em;
         }
@@ -103,7 +145,7 @@
         h3,
         h4,
         h5 {
-            font-family: 'MV A Waheed', fontName, sans-serif;
+            font-family: 'MV A Waheed', fontName, sans-serif !important;
             color: #444;
         }
 
